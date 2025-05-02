@@ -12,3 +12,13 @@ private:
 public:
 	static void convert(const std::string& literal);
 };
+
+enum literalType {
+	CHAR,
+	INT,
+	FLOAT,
+	DOUBLE,
+	PSEUDO_FLOAT,
+	PSEUDO_DOUBLE,
+	UNKNOWN
+};
